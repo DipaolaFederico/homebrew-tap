@@ -2,28 +2,28 @@
 class Kmd < Formula
   desc "Fast, beautiful Markdown previewer for the terminal"
   homepage "https://github.com/DipaolaFederico/kmd"
-  version "0.10.1"
+  version "0.11.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/DipaolaFederico/kmd/releases/download/v0.10.1/kmd-v0.10.1-darwin-arm64.tar.gz"
-      sha256 "6f3378d34ee8e1283bdf35cc04745e49f1aeda1c77854030d14d56e548138655"
+      url "https://github.com/DipaolaFederico/kmd/releases/download/v0.11.0/kmd-v0.11.0-darwin-arm64.tar.gz"
+      sha256 "39879d9810a452a67cd5108d24a6981e87cb68f560755a80145d35c0c386fe55"
     end
     on_intel do
-      url "https://github.com/DipaolaFederico/kmd/releases/download/v0.10.1/kmd-v0.10.1-darwin-amd64.tar.gz"
-      sha256 "5934ed732e8c582483e9fb7e99cac9a98c6a8ef533b3ecd6a92d2c3013c30f5b"
+      url "https://github.com/DipaolaFederico/kmd/releases/download/v0.11.0/kmd-v0.11.0-darwin-amd64.tar.gz"
+      sha256 "2656a1d964972e1a19c91125a79486c6a6f496a0b8883f39336c350fa9787799"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/DipaolaFederico/kmd/releases/download/v0.10.1/kmd-v0.10.1-linux-arm64.tar.gz"
-      sha256 "c330e04af040bd0ee62808da5312aa2e6558eca56b34725d6cc1c41758a3e92f"
+      url "https://github.com/DipaolaFederico/kmd/releases/download/v0.11.0/kmd-v0.11.0-linux-arm64.tar.gz"
+      sha256 "6b22e60684688e1ea741b03646b65cb77841d934361a59686e3d8c2149c6485d"
     end
     on_intel do
-      url "https://github.com/DipaolaFederico/kmd/releases/download/v0.10.1/kmd-v0.10.1-linux-amd64.tar.gz"
-      sha256 "3fd3fc64e03c6900c453f237efdac4ac9f6a84ee75ef0b526333476ab44f562d"
+      url "https://github.com/DipaolaFederico/kmd/releases/download/v0.11.0/kmd-v0.11.0-linux-amd64.tar.gz"
+      sha256 "8a487b21fe8a6d3c0a6e964d146603e59e25be94d2a1dda24fd590b05d64997e"
     end
   end
 
